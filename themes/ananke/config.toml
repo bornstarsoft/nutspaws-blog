@@ -1,10 +1,14 @@
 
-baseURL = "https://nutspaws-blog.pages.dev/"
+baseURL = "https://nutspaws.com/"
 languageCode = "en-us"
-title = "NutsPaws Blog"
+title = "NutsPaws"
 theme = "ananke"
-buildFuture = true
-paginate = 10
+
+enableRobotsTXT = true
+buildFuture = false
+
+[pagination]
+pagerSize = 10
 
 [params]
   mainSections = ["posts"]
